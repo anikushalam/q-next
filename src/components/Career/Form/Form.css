@@ -1,0 +1,15 @@
+.form-control {
+  font-size: 1vw !important;
+}
+
+@media only screen and (max-width: 840px) {
+  .form-control {
+    font-size: 1.6vw !important;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .form-control {
+    font-size: 2vw !important;
+  }
+}

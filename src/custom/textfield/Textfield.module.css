@@ -1,0 +1,56 @@
+.inputData {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.inputData input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid silver;
+}
+.inputData input:focus ~ label,
+.inputData input:valid ~ label {
+  transform: translateY(-23px);
+  /* color: #4158d0; */
+  font-size: 0.8rem;
+}
+
+.inputData label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.inputData input:focus {
+  outline: none;
+}
+.inputData .underline {
+  position: absolute;
+  bottom: -3px;
+  height: 1px;
+  width: 100%;
+}
+
+.inputData .underline:before {
+  position: absolute;
+  content: "";
+  /* background: #4158d0; */
+  height: 100%;
+  width: 100%;
+  transform: scale(0);
+}
+
+.inputData input:focus ~ .underline:before,
+.inputData input:valid ~ .underline:before {
+  transform: scale(1);
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,54 @@
+.team {
+  height: auto;
+  /* margin-top: 3rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  background: var(--team-bg-color);
+  padding-top: 8rem;
+}
+.team h2 {
+  font-family: "Cormorant SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 58px;
+  color: var(--team-heading-color);
+}
+.content {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.caresual {
+  display: none;
+}
+
+@media only screen and (max-width: 1140px) {
+}
+
+@media only screen and (max-width: 821px) {
+  .content {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 542px) {
+  .content {
+    display: none;
+  }
+  .caresual {
+    display: block;
+    width: 100%;
+  }
+  .team h2 {
+    font-size: 6vw;
+  }
+
+  .team {
+    margin-top: 0;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,149 @@
+.newHeadContainerOverlay {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  /*  */
+
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+}
+
+.modulebg {
+  background-image: url("https://www.edwardrobertson.co.uk/images/page-headers/what-we-do.jpg");
+}
+.whyQviplebg {
+  background-image: url("/images/light-theme/career-bg.jpg");
+}
+
+.cheader {
+  width: 100%;
+  /* height: calc(100vh - 300px); */
+  height: 100%;
+  background: linear-gradient(
+    -45deg,
+    /* rgba(8, 107, 105, 0.65), rgba(45, 59, 66, 0.65), rgba(52, 82, 122, 0.65) */
+      rgba(40, 48, 118, 0.65),
+    rgba(56, 54, 65, 0.65),
+    rgba(128, 128, 139, 0.65)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cheader h3 {
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+
+.cheader h3 {
+  padding: 1em;
+  text-align: center;
+  font-family: "Cormorant SC";
+  color: #fff;
+  font-weight: 800;
+  font-size: 2.75rem;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.cheader h6 {
+  font-size: 1.25em;
+  color: #fff;
+  animation: _fadeInUp_avgtt_1 1s both 0.25s;
+  letter-spacing: 1px;
+  font-weight: 500;
+
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+/* .cheader {
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-image: url("https://ik.imagekit.io/birat22/Qviple_Landing/career/careerBG.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: relative;
+}
+.cheader h3 {
+  display: none;
+}
+
+.cheader img {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+@media only screen and (max-width: 1280px) {
+  .cheader img {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .cheader img {
+    position: absolute;
+    top: 45%;
+    left: 7%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .cheader img {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .cheader img {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .cheader img {
+    position: absolute;
+    top: 68%;
+    left: 2%;
+  }
+  .cheader {
+    height: 70vh;
+
+  
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cheader img {
+    display: none;
+  }
+  .cheader h3 {
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+
+    
+    ;
+    font-weight: 800;
+    font-size: 4vw;
+    line-height: 61px;
+   
+
+    color: #ffffff;
+  }
+} */

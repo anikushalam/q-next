@@ -1,0 +1,196 @@
+:root {
+  --font-family: "Josefin Sans", sans-serif;
+
+  --gradient-background: linear-gradient(
+    0deg,
+    hsl(267deg 90% 28%) 0%,
+    hsl(266deg 70% 34%) 11%,
+    hsl(266deg 58% 38%) 22%,
+    hsl(267deg 50% 42%) 33%,
+    hsl(267deg 43% 46%) 44%,
+    hsl(267deg 39% 51%) 56%,
+    hsl(267deg 40% 55%) 67%,
+    hsl(267deg 42% 59%) 78%,
+    hsl(268deg 44% 63%) 89%,
+    hsl(268deg 46% 67%) 100%
+  );
+
+  --primary-color: #420789;
+  --secondary-color: #a884d2;
+  --text-color: #6c6c72;
+  --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --color-bg: #040c18;
+  --color-footer: #232233;
+  --color-blog: #042c54;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+  --sail-color-gray-50: rgb(247, 250, 252);
+
+  /* ---------------------------- */
+
+  --font-family: "Inter";
+  --font-style-normal: "normal";
+  --font-weight-500: 500;
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-size-10: 0.731vw;
+  --font-size-12: 0.878vw;
+  --font-size-13: 0.9vw;
+  --font-size-14: 1.025vw;
+  --font-size-15: 1.098vw;
+  --font-size-16: 1.171vw;
+  --font-size-18: 1.318vw;
+  --font-size-20: 1.464vw;
+  --font-size-22: 1.611vw;
+  --font-size-24: 1.757vw;
+  --line-height-17: 1.245vw;
+  --color-grey-input-text: rgba(18, 18, 18, 0.5);
+  --color-grey-input-text-9: rgba(18, 18, 18, 0.9);
+  --color-black-text: #121212;
+  --tab-color: rgba(18, 18, 18, 0.8);
+  --tab-active-color: #ffffff;
+  --tab-bg-color: rgba(75, 26, 133, 0.1);
+  --tab-active-bg-color: #1c023b;
+}
+
+.dark-theme {
+  --logo-text-color: rgb(63, 64, 64);
+  --logo-text-bg-color: linear-gradient(
+    93.51deg,
+    #9b51e0 2.84%,
+    #3081ed 99.18%
+  );
+  --navbar-bg-color: rgb(24, 32, 36, 1);
+  --wave-color-1: rgb(30 28 45);
+  --wave-color-2: rgb(255 255 255);
+  --wave-color-3: rgb(255 255 255);
+  --navitem-color: #f2f1f1;
+  --text-contrast-color-1: #fff;
+  --text-contrast-color-2: #d0cece;
+  --text-contrast-color-3: #919090;
+  --text-contrast-color-4: #545353;
+  --section-1-bg-color: #1f1d2b;
+  --section-1-heading-text-color: #fff;
+  --section-1-content-color: #bebbbb;
+  --text-no-contrast-color-1: #000;
+  --text-no-contrast-color-2: #282727;
+  --text-no-contrast-color-3: #464646;
+  --text-no-contrast-color-4: #6c6b6b;
+  --getting-started-color: linear-gradient(to bottom, #468da4 0%, #2dbbe9 100%);
+  --blue-color-1: #15054f;
+  --blue-color-2: #4253ab;
+  /* --------------Services-------------------- */
+  --services-bg-color: #2b2939;
+  --saas-text-color-light: rgb(188 185 208);
+  --saas-text-head-color: #fff;
+  --service-icon-color: #fff;
+  /* --------------Brochure-------------------- */
+  --brochure-bg-color: #2b2939;
+  --brocure-heading-color: #f9f9f9;
+  --about-bg-image: linear-gradient(
+    hsl(247.5deg 16.33% 19.22%),
+    hsl(248.57deg 19.44% 14.12%)
+  );
+  --about-heading-color: #fff;
+  --about-anchor-color: #5cb2e7;
+  --about-text-color: #aaa6c3;
+  /* -----------Team-------------------- */
+  --team-bg-color: #1f1d2b;
+  --team-heading-color: #fff;
+  --team-card-bg-color: #36324a;
+  --team-member-color: #fff;
+  --team-designation-color: rgb(170 166 195);
+  /* -----------FAQ-------------------- */
+  --faq-bg-color: #1f1d2b;
+  --faq-heading-color: #c7c4c4;
+  --accordion-item-bg-color: #302d45;
+  --accordion-wrap-icon-color: #363147;
+  --accordion-question-color: #fff;
+  --line-color: #f1eef4;
+  --line-dot-color: #fff;
+  /* -----------Footer------------------- */
+  --footer-bg-color: #2b2939;
+  --logo-texr-heading-color: #fff;
+  --logo-texr-heading-2-color: #bbbbbb;
+  --footer-item-color: #ececec;
+  --footer-bottom-bg-color: #2b2939;
+  /* -----------Pricing-------------------- */
+  --pricing-bg-color: #243b55;
+  --pricing-card-bg-color: #214875;
+  --pricing-card-heading-color: #dcd7d7;
+  --students-count-color: #c2cdee;
+  --access-text-color: #b8babe;
+  --pricing-tab-bg-color: #455cf1;
+  --pricing-list-color: #ffffffac;
+}
+
+.light-theme {
+  --logo-text-color: aliceblue;
+
+  --logo-text-bg-color: linear-gradient(
+    93.51deg,
+    #515fe0 2.84%,
+    #4c92ee 99.18%
+  );
+  --navbar-bg-color: #1f1d2b;
+  --wave-color-1: rgb(30 28 45);
+  --wave-color-2: rgb(255 255 255);
+  --wave-color-3: rgb(255 255 255);
+  --navitem-color: #f2f1f1;
+  --text-contrast-color-1: #fff;
+  --text-contrast-color-2: #d0cece;
+  --text-contrast-color-3: #919090;
+  --text-contrast-color-4: #545353;
+  --section-1-bg-color: #1f1d2b;
+  --section-1-heading-text-color: #fff;
+  --section-1-content-color: #bebbbb;
+  --text-no-contrast-color-1: #000;
+  --text-no-contrast-color-2: #282727;
+  --text-no-contrast-color-3: #464646;
+  --text-no-contrast-color-4: #6c6b6b;
+  --getting-started-color: linear-gradient(to bottom, #468da4 0%, #2dbbe9 100%);
+  --blue-color-1: #15054f;
+  --blue-color-2: #4253ab;
+  /* --------------Services-------------------- */
+  --services-bg-color: #ffffff;
+  --saas-text-color-light: rgb(63, 62, 65);
+  --saas-text-head-color: #36324a;
+  --service-icon-color: #3d4365;
+  /* --------------Brochure-------------------- */
+  --brochure-bg-color: #ffffff;
+  --brocure-heading-color: #394e76;
+  /* ----------------About--------------------- */
+  --about-bg-color: #fff;
+  --about-heading-color: #010d31;
+  --about-anchor-color: #2c2938;
+  --about-text-color: #010d31;
+  /* -----------Team-------------------- */
+  --team-bg-color: #fff;
+  --team-heading-color: #393744;
+  --team-card-bg-color: #fff;
+  --team-member-color: #393744;
+  --team-designation-color: rgb(109, 107, 120);
+  /* -----------FAQ-------------------- */
+  --faq-bg-color: #fff;
+  --faq-heading-color: #393744;
+  --accordion-item-bg-color: #fff;
+  --accordion-wrap-icon-color: #fff;
+  --accordion-question-color: #393744;
+  --line-color: #393744;
+  --line-dot-color: #312f41;
+  /* -----------Footer-------------------- */
+  --footer-bg-color: #f8f8f8;
+  --logo-texr-heading-color: #46456e;
+  --logo-texr-heading-2-color: #2e2d2d;
+  --footer-item-color: #312f41;
+  --footer-bottom-bg-color: #1f1d2b;
+  /* -----------Pricing-------------------- */
+  --pricing-bg-color: #ffffff;
+  --pricing-card-bg-color: #ffffff;
+  --pricing-card-heading-color: #2e2d2d;
+  --students-count-color: #4b80bd;
+  --access-text-color: #393744;
+  --pricing-tab-bg-color: #3d396a;
+  --pricing-list-color: #423f61;
+}

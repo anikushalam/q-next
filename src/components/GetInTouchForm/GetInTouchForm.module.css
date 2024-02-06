@@ -1,0 +1,124 @@
+.getInTouchForm {
+  width: 25rem;
+  max-height: 80vh;
+
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.inputContainer {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.labelContainer {
+  display: flex;
+  gap: 0.2rem;
+  align-items: flex-start;
+}
+
+.astrick {
+  color: #c30;
+  margin-bottom: 0;
+}
+
+.label {
+  /* color: #1d8fce; */
+  color: #2b3a5a;
+  font-size: 0.9rem;
+
+  font-weight: 0.4;
+}
+
+.input {
+  width: 95%;
+  font-family: "Inter" !important;
+
+  font-weight: 500 !important;
+  font-size: 1vw !important;
+  line-height: 19px !important;
+  color: #121212;
+  padding: 0.5rem;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pollTextarea::placeholder {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.pollTextarea {
+  width: 95%;
+  padding: 0.5rem;
+  resize: none;
+  outline: none;
+  background: #ffffff;
+  background-color: #fff;
+  border: 1px solid rgb(118, 118, 118);
+  overflow-y: scroll;
+
+  font-family: "Inter" !important;
+  font-weight: 500 !important;
+  font-size: 1vw !important;
+  line-height: 19px !important;
+  color: #121212;
+}
+
+/* .input:focus {
+  border: 1.2px solid rgb(0, 0, 0) !important;
+} */
+
+.pollTextarea:focus {
+  border: 1.8px solid rgb(0, 0, 0);
+}
+
+.submittbutton {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.submittbutton {
+  background-color: #2b3a5a;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  gap: 0.3rem;
+  border: none;
+}
+
+.submittbutton > p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.pollTextarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.pollTextarea::-webkit-scrollbar-track {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 480px) {
+  .getInTouchForm {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .getInTouchForm {
+    width: 18rem;
+  }
+}

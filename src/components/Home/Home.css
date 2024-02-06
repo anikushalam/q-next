@@ -1,0 +1,124 @@
+.home {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  padding: auto;
+}
+
+/* .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+} */
+
+.float {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  background-color: rgb(98, 167, 241);
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.floatIcon {
+  height: 50%;
+  width: 70%;
+}
+
+/* ----------animation------------ */
+.pagereveal {
+  width: 100vw;
+  height: 100vh;
+  color: #000000;
+  position: relative;
+  text-align: center;
+}
+.loading {
+  width: 100%;
+  height: 100%;
+  /* background-color: #121212; */
+  background-color: rgb(252, 253, 254);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+.follow {
+  position: absolute;
+  background-color: #f48049;
+  height: 2px;
+  width: 0;
+  left: 0;
+  z-index: 2;
+}
+.progressbar {
+  position: absolute;
+  left: 0;
+  background-color: #4e4d4d;
+  height: 2px;
+  width: 0;
+  transition: 0.4s ease-out;
+}
+.count {
+  position: absolute;
+  font-size: 130px;
+  color: #f48049;
+  transform: translateY(-15px);
+  font-weight: 500;
+}
+.content {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  padding: auto;
+
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+}
+.content p {
+  text-align: center;
+  font-size: 104px;
+  opacity: 0;
+  display: none;
+  font-weight: 500;
+  margin: 0;
+  opacity: 0;
+  display: none;
+  color: #fff;
+}
+
+/* .modules {
+  display: none;
+  opacity: 0;
+} */
+
+@media only screen and (max-width: 680px) {
+  .count {
+    font-size: 3rem;
+    transform: translateY(-8px);
+  }
+}
+/* ----------animation------------ */

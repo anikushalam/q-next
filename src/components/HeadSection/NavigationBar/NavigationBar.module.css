@@ -1,0 +1,560 @@
+.navigationbar {
+  width: 100%;
+  padding: 1.25rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  transition: all 0.5s linear;
+  background-color: var(--navbar-bg-color);
+}
+.navigationbarActive {
+  background-color: var(--navbar-bg-color) !important;
+}
+.navigationleftcontainert {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.navigationleft {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.navigationleft img {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.navigationleft > h5 {
+  font-size: 1.75rem;
+
+  font-weight: 500;
+  color: var(--logo-text-color);
+  margin-bottom: 0.1rem !important;
+  letter-spacing: 0.2rem;
+  background: var(--logo-text-bg-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navigationright {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navitem {
+  border: 1px solid transparent;
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+  display: inline-block;
+  font-family: Poppins;
+  display: grid;
+  place-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  height: 2rem;
+  padding: 0 0.75rem;
+  text-align: center;
+  color: var(--navitem-color);
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.callIconImgcontainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #f2f1f1;
+  text-decoration: none;
+}
+.callNumber {
+  font-family: "Inter";
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  color: var(--text-contrast-color-2);
+}
+
+.navitem:hover {
+  color: var(--text-contrast-color-4);
+  border-bottom: 0.1rem solid var(--text-contrast-color-4);
+}
+
+.naviterActive {
+  border-bottom: 0.1rem solid var(--text-contrast-color-1);
+}
+
+.menubarcontainerr,
+.hamburger {
+  display: none;
+}
+
+.callIconImg {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+.callNumberText {
+  font-family: "Inter";
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  text-align: left;
+  color: var(--text-contrast-color-2);
+}
+
+.logintab {
+  font-family: "Inter";
+  font-size: 1rem;
+  color: var(--text-contrast-color-1);
+  border: 0.1rem solid var(--text-contrast-color-4);
+  padding: 0.5rem 0.7rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 1080px) {
+  .navitem {
+    padding: 0 0.4rem;
+  }
+  .navigationright {
+    gap: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 1111px) {
+  .navigationright {
+    display: none;
+  }
+
+  .menubarcontainerr {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    z-index: 2;
+  }
+}
+
+.menuclosed {
+  padding: 0.65rem;
+  min-width: 5.1vw;
+  min-height: 5.1vw;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  /* border: 0.098vw solid rgb(253, 252, 252); */
+  transition: min-width 0.3s ease-in-out 0s, min-height 0.3s ease-in-out 0s;
+}
+
+.menubarpadd {
+  padding-top: 0.5rem;
+  min-width: 35vw;
+  min-height: 25.1vw;
+  border-radius: 1.953vw;
+  background: #020b10;
+  border: 0.098vw solid rgb(253, 252, 252);
+  transition: min-width 0.6s ease-in-out 0s, min-height 0.6s ease-in-out 0s;
+}
+
+.menuBar {
+  width: 1.3rem;
+  height: 0.1rem;
+  background-color: #fff;
+}
+.barwrapper {
+  position: absolute;
+  right: 0.75rem;
+  top: 1rem;
+  cursor: pointer;
+}
+.barwrapperopen {
+  border: 0.098vw solid rgb(253, 252, 252);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  top: 0.5rem;
+}
+.bar2 {
+  margin-top: 0.25rem;
+}
+.bar3 {
+  margin-top: 0.25rem;
+}
+.bar1clicked {
+  transform: translateY(3px) rotate(45deg);
+  transition: all 0.3s ease-in-out;
+}
+.bar2clicked {
+  visibility: hidden;
+}
+.bar3clicked {
+  transform: translateY(0) rotate(-45deg);
+  transition: all 0.3s ease-in-out;
+}
+
+/* .navitem {
+    padding: 0 0.75rem;
+  }
+
+  .navigationleft img {
+    height: 1.7rem;
+    width: 1.8rem;
+  }
+
+  .navitem {
+    font-weight: 500;
+  }
+
+  .navigationleft > h5 {
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.25rem !important;
+  } */
+
+/* -------------------------------- */
+.regetstarted,
+.resgsocial {
+  display: none !important;
+}
+.draweroverlay {
+  position: fixed;
+  z-index: 0;
+  inset: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s ease;
+}
+.drawer {
+  min-width: 15vw;
+  min-height: 5.664vw;
+  isolation: isolate;
+  background: rgb(25, 34, 39);
+  right: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid rgb(253, 252, 252);
+  overflow: clip;
+  border-radius: 1.953vw;
+  color: #fff;
+  transition: min-width 0.3s ease-in-out 0s, min-height 0.3s ease-in-out 0s;
+}
+.accesbtnclose {
+  opacity: 0;
+  display: none;
+}
+.accesbtn {
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.977vw 1.465vw;
+  background-color: #3081ed;
+  width: 70%;
+  color: #f2f1f1;
+  border-radius: 4.883vw;
+  align-items: center;
+  transition-delay: 0.6s;
+  margin-left: 0.5rem;
+}
+.accesbtn > span > img {
+  height: 1rem;
+  width: 1.3rem;
+}
+.menucolumns {
+  width: auto;
+  height: auto;
+  opacity: 1;
+  visibility: inherit;
+}
+.dumheight {
+  height: 2vw;
+}
+.menucolumnsdisable {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  visibility: hidden;
+}
+.menucolumn {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-top: 1px solid rgb(74, 83, 87);
+  transition: all 0.3s ease-in-out 0s;
+  height: 5.859vw;
+  width: 35vw;
+  padding: 0px 2.93vw;
+}
+.menucolumn:hover {
+  background-color: #5e89c1;
+  transition: 0.5s;
+}
+.menucolumn > span {
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+
+  color: #f2f1f1;
+}
+.menucolumnlight > span {
+  color: #342f4a;
+}
+.menucolumnlight:hover {
+  color: #ddd9ec;
+}
+
+.menucolumn > span > img {
+  height: 1rem;
+  width: 1.3rem;
+}
+
+/* ----------------------------- */
+
+@media only screen and (max-width: 768px) {
+  .menubarcontainerr {
+    right: 1.5rem;
+    top: 1.1rem;
+  }
+  .barwrapper {
+    right: 0.65rem;
+    top: 1rem;
+  }
+
+  .menucolumn > img {
+    height: 1rem;
+    width: 1.2rem;
+  }
+
+  .barwrapperopen {
+    top: 0.25rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .navigationbar {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .navigationleft img {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .navigationleft > h5 {
+    font-size: 1.55rem;
+    margin-bottom: 0.25rem !important;
+  }
+
+  .menubarcontainerr {
+    right: 1.5rem;
+    top: 1.1rem;
+  }
+  .barwrapper {
+    right: 0.65rem;
+    top: 0.9rem;
+  }
+  .barwrapperopen {
+    top: 0;
+  }
+  .menuclosed {
+    min-width: 6vw;
+    min-height: 6vw;
+  }
+  .menubarpadd {
+    min-width: 40vw;
+  }
+  .menucolumn {
+    width: 40vw;
+    height: 6.5vw;
+  }
+  .menucolumn > span {
+    font-size: 2.2vw;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .menubarcontainerr {
+    top: 0.75rem;
+  }
+  .menuclosed {
+    min-width: 7vw;
+  }
+  .barwrapper {
+    top: 0.75rem;
+  }
+  .barwrapperopen {
+    top: 0.1rem;
+  }
+  .menubarpadd {
+    min-width: 45vw;
+  }
+  .menucolumn {
+    width: 45vw;
+    height: 7vw;
+  }
+  .menucolumn > span {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .navigationleft img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .navigationleft > h5 {
+    font-size: 1.35rem;
+    margin-bottom: 0.25rem !important;
+  }
+
+  .navigationleft {
+    gap: 0.5rem;
+  }
+
+  .menuclosed {
+    min-width: 7.5vw;
+  }
+  .barwrapper {
+    right: 0.65rem;
+    top: 0.65rem;
+  }
+  .barwrapperopen {
+    top: 0.1rem;
+  }
+  .menubarpadd {
+    min-width: 50vw;
+  }
+
+  .menucolumn {
+    width: 90vw;
+    height: 14.5vw;
+    padding: 0px 3.93vw;
+  }
+  .menucolumn > img {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  .accesbtn {
+    display: none;
+  }
+  .dumheight {
+    display: none;
+  }
+  .menucolumns {
+    margin-top: 3rem;
+  }
+  .regetstarted {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 0.977vw 1.465vw;
+    background-color: #3081ed;
+    padding: 0px 3.93vw;
+  }
+  .barwrapperclose {
+    top: 1.3rem !important;
+  }
+  .navigationleft {
+    top: 0.5rem;
+  }
+  .menubarcontainerr {
+    right: 0.75rem;
+  }
+  .menucolumn > span {
+    font-size: 3vw;
+  }
+  .resgsocial {
+    display: flex !important;
+    border-bottom-left-radius: 1.953vw;
+    border-bottom-right-radius: 1.953vw;
+    padding: 0 !important;
+  }
+  .socialhalf {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: rgb(68, 63, 63);
+    letter-spacing: 0.05rem;
+    border: 0.01rem solid grey;
+    border-bottom-left-radius: 1.953vw;
+  }
+  .socialhalfright {
+    border-bottom-left-radius: none !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .resgsocial:hover {
+    background-color: transparent;
+  }
+  .socialhalf:hover {
+    background-color: #00acee;
+    transition: 0.5s;
+  }
+  .menuBar {
+    width: 1.1rem;
+    height: 0.075rem;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .menuclosed {
+    min-width: 9vw;
+  }
+  .menubarpadd {
+    min-width: 55vw;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .navigationbar {
+    padding: 1rem;
+  }
+  .navigationleft {
+    gap: 0.5rem;
+  }
+  .navigationleft img {
+    height: 1.35rem;
+    height: 1.35rem;
+  }
+
+  .navigationleft > h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem !important;
+  }
+  .menuclosed {
+    min-width: 9.5vw;
+    min-height: 8vw;
+  }
+
+  .barwrapper {
+    right: 0.5rem;
+  }
+  .menucolumn > span {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .menuclosed {
+    min-width: 10vw;
+    min-height: 8.5vw;
+  }
+}
+/* --------------------------------------------------- */

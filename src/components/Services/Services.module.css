@@ -1,0 +1,263 @@
+.services {
+  padding: 5rem;
+  height: auto;
+  /* background: #201e2d; */
+  background-color: var(--services-bg-color);
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+}
+.container {
+  padding: 0.75rem 3rem;
+  position: relative;
+  width: 50%;
+}
+.textbox {
+  padding: 1.25rem 1.8rem;
+  position: relative;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  box-shadow: 0 3px 0 #ddd;
+  background: #36324a;
+  color: rgb(255, 255, 255);
+}
+
+.textboxovetlay {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.textboxovetlay > b {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #abc2e3;
+}
+.textbox:hover h2,
+.textbox:hover p {
+  opacity: 0.07;
+}
+.depttextbox:hover h2,
+.depttextbox:hover p {
+  opacity: 1;
+}
+.textbox:hover .textboxovetlay {
+  opacity: 1;
+}
+.textbox > h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 140%;
+}
+.textbox > p {
+  color: #aaa6c3;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 130%;
+}
+.leftcontainer {
+  left: 0;
+}
+.rightcontainer {
+  left: 50%;
+}
+.imgcontainer {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--service-icon-color);
+  position: absolute;
+  top: 2rem;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+}
+.imgcontainer > span,
+.imgcontainer > img {
+  height: 60%;
+  width: 60%;
+}
+
+.imgcontainer span > img {
+  height: 100%;
+  width: 100%;
+}
+
+.leftimgcontainer {
+  right: -1.2rem;
+}
+.rightimgcontainer {
+  left: -1.2rem;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 0.3rem;
+  height: 95%;
+  background: #717882;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  animation: moveline 10s linear;
+}
+.arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 1.8rem;
+  z-index: 1;
+  border-top: 0.85rem solid transparent;
+  border-bottom: 0.85rem solid transparent;
+}
+.leftarrow {
+  border-left: 0.85rem solid #36324a;
+  right: -0.6rem;
+}
+.rightarrow {
+  border-right: 0.85rem solid #36324a;
+  left: -0.6rem;
+}
+
+.sectionSubText {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: var(--saas-text-color-light);
+  text-align: center;
+  text-transform: uppercase;
+}
+.sectionHeadingText {
+  font-size: 3rem;
+  color: var(--saas-text-head-color);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.heading {
+  padding: 2rem 3vw;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.sectionHeadingText {
+  font-family: "Cormorant SC";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+
+  color: var(--saas-text-head-color);
+}
+.sectionSubText {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 30px;
+
+  color: var(--saas-text-color-light);
+}
+.register {
+  color: #5576a7;
+  font-weight: 600;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .sectionHeadingText {
+    font-size: 2.8rem;
+    line-height: 120%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .sectionHeadingText {
+    font-size: 2.3rem;
+  }
+
+  .sectionSubText {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .sectionHeadingText {
+    font-size: 2.1rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .services {
+    padding: 3rem;
+  }
+  .timeline::after {
+    left: 5%;
+  }
+  .container {
+    padding-left: 5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+  }
+  .rightcontainer {
+    left: 0;
+  }
+  .leftimgcontainer,
+  .rightimgcontainer {
+    left: 0.4rem;
+  }
+  .leftarrow {
+    left: -0.6rem;
+    border-left: 0;
+    border-right: 0.85rem solid #36324a;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .leftimgcontainer,
+  .rightimgcontainer {
+    left: 0.2rem;
+  }
+  .imgcontainer {
+    height: 2.1rem;
+    width: 2.1rem;
+  }
+  ._container_9yn88_11 {
+    padding-left: 3.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .services {
+    padding: 1rem;
+  }
+}

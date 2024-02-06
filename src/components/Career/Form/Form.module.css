@@ -1,0 +1,243 @@
+.form {
+  width: 100%;
+  height: auto;
+  padding: 5% 10%;
+  box-sizing: border-box;
+}
+
+.heading {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-family: "Cormorant SC";
+  font-weight: 700;
+  font-size: 2.4vw;
+  line-height: 60px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: -0.02em;
+
+  color: #010d31;
+}
+.content {
+  display: flex;
+  margin-top: 5vw;
+}
+
+.image {
+  width: 50%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.image h6 {
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.text {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hiring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 1vw;
+}
+
+.hiring h6 {
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #010d31;
+}
+
+.hiring p {
+  font-weight: 300;
+  font-size: 0.8vw;
+  line-height: 21px;
+  text-align: center;
+  /* identical to box height */
+
+  color: #010d31;
+}
+.label {
+  font-weight: 300;
+  font-size: 1vw;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #010d31;
+}
+.applybtn {
+  width: 90%;
+  display: grid;
+  place-items: center;
+  background: #312b59;
+  border-radius: 6px;
+  color: #ffffff;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
+  margin-top: 1.8vw;
+  cursor: pointer;
+}
+
+.resumecontainer {
+  display: flex;
+  margin-top: 5vw;
+  width: 90%;
+  justify-content: center;
+  gap: 5%;
+}
+
+.divider {
+  display: none;
+}
+.resume {
+  width: 55%;
+}
+.hiring {
+  width: 40%;
+  margin-top: -10%;
+}
+.resume input {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .form {
+    padding: 5% 5%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .form {
+    padding: 5% 2%;
+  }
+
+  /* .resumecontainer {
+    display: flex;
+    margin-top: 5vw;
+    width: 90%;
+    flex-direction: column;
+    gap: 5%;
+    margin-top: 2vw;
+  }
+  .resume {
+    width: 100%;
+  }
+  .hiring {
+    width: 100%;
+    margin-top: 2%;
+  }
+  .divider {
+    display: block;
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(217, 214, 214);
+  }
+  .hiring h6 {
+    font-size: 1.2vw;
+    text-align: center;
+  }
+
+  .hiring p {
+    font-size: 1.2vw;
+    text-align: center;
+  } */
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image,
+  .text {
+    width: 80%;
+  }
+  .resumecontainer {
+    margin-top: 8vw;
+  }
+  .hiring h6 {
+    font-size: 1.4vw;
+    text-align: center;
+  }
+
+  .hiring p {
+    font-size: 1.4vw;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image,
+  .text {
+    width: 90%;
+  }
+  .resumecontainer {
+    margin-top: 10vw;
+  }
+  .hiring h6 {
+    font-size: 1.4vw;
+    text-align: center;
+  }
+
+  .hiring p {
+    font-size: 1.4vw;
+    text-align: center;
+  }
+  .heading {
+    font-weight: 700;
+    font-size: 3.9vw;
+    line-height: 60px;
+  }
+  .image h6 {
+    font-size: 2.2vw;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .hiring h6 {
+    font-size: 1.9vw;
+    text-align: center;
+  }
+
+  .hiring p {
+    font-size: 1.9vw;
+    text-align: center;
+  }
+  .image,
+  .text {
+    width: 97%;
+  }
+  .image img {
+    width: 100%;
+  }
+  .applybtn {
+    width: 90%;
+
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+  }
+  /* .heading {
+    font-weight: 700;
+    font-size: 4.1vw;
+    line-height: 60px;
+  } */
+}

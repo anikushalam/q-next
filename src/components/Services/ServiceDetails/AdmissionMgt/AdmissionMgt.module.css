@@ -1,0 +1,1777 @@
+.admissionMgt {
+  width: 100%;
+}
+
+.sectionn1 {
+  width: 100%;
+}
+
+.sectionn1header {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+
+  position: relative;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-image: url("https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExfHxvbmxpbmV8ZW58MHx8fHwxNjYzMjM3Nzg1&ixlib=rb-1.2.1&q=80&w=2000");
+}
+
+.sectionn1headerleft {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.admissionheading {
+  text-align: center;
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #2b3a5a;
+  line-height: 1.3;
+}
+
+.admissionheaderresponsivecontainer {
+  display: none;
+}
+
+.admissionheading > span {
+  color: #4071da;
+
+  /* #939fa4 */
+}
+
+.admissiontagline {
+  color: #59646a;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.sectionn1headerbuttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.sectionn1headerleftbutton {
+  background-color: #2b3a5a;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  border-radius: 1.5rem;
+  padding: 0.75rem 4rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sectionn1headerrightbutton {
+  background-color: transparent;
+  color: #2b3a5a;
+  display: grid;
+  place-items: center;
+  border-radius: 1.5rem;
+  padding: 0.75rem 4rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 0.1rem solid #2b3a5a;
+}
+
+.financeheaderContainer,
+.financeheaderTextContainer {
+  display: none;
+}
+
+.sectionn1headerimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sectionn1heading3container {
+  position: absolute;
+  /* top: 10rem; */
+  top: 25%;
+  left: 15%;
+  /* left: 5rem; */
+  z-index: 10;
+}
+
+.sectionn1heading3containerbox {
+  position: relative;
+  width: 42%;
+}
+
+.sectionn1heading3 {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: #173753;
+}
+
+.geeks {
+  width: 100%;
+  height: 2px;
+  background: #5500aa;
+  animation: lineH 4s infinite linear;
+  position: absolute;
+  left: 0;
+  top: 4rem;
+}
+
+.geeks2 {
+  width: 100%;
+  height: 2px;
+  background: #6b4881;
+  animation: lineH 4s 5s infinite linear;
+  position: absolute;
+  right: 0;
+  top: 4.3rem;
+}
+
+@keyframes lineH {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+    opacity: 0.5;
+  }
+}
+
+.sectionn1headingptext {
+  margin-top: 1rem;
+
+  font-size: 1.1rem;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #564370;
+}
+
+/* --------------------Finance-------------------------------- */
+.financeheader {
+  background-color: #f6f7f9;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* -----------------Section2----------------------- */
+
+.sectionn2container {
+  padding: 2rem 4rem;
+  /* padding-top: 0; */
+}
+
+.sectionn2 {
+  padding: 3rem 4rem;
+  background-color: rgb(248, 245, 245);
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.sectionn2heading6 {
+  color: #2b3a5a;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.sectionli {
+  font-size: 1.1rem;
+  color: rgb(100, 97, 97);
+  font-weight: 500;
+  line-height: 160%;
+}
+
+/* ---------------Department------------------------- */
+.deptheader1 {
+  width: 100%;
+  height: 20rem;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.deptheader1 {
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.deptheadleft {
+  width: 72%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ----------------ELearning------------------------ */
+.elearningheader {
+  width: 100%;
+  height: 20rem;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 80vh;
+}
+
+.elearningheadleft {
+  width: 65%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----------------Library----------------------- */
+.libraryheader {
+  width: 100%;
+  height: 80vh;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.libraryheadleft {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.librarybottom {
+  margin-top: 1.5rem !important;
+  padding-left: 0 !important;
+}
+.underlin11 {
+  top: 6.7rem !important;
+}
+.underlin22 {
+  top: 7rem !important;
+}
+.library3container {
+  /* background-image: url("/public/images/services/library2.jpg"); */
+  width: 100%;
+  height: fit-content;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.library3 {
+  display: flex;
+  gap: 4%;
+}
+
+.library3wrap {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(44, 43, 43, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.library3left {
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.library3leftp {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.library3wrap > h4 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.librarysection4container {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+}
+
+.libraryheading4 {
+  width: 60%;
+}
+
+.financeheading4right {
+  width: 40%;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.financeheading4right > img,
+.financeheading4right > span > img {
+  width: 90%;
+  height: auto;
+}
+
+/* -----------------Sports------------------------------- */
+
+.sportheader {
+  width: 100%;
+  height: 80vh;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  display: flex;
+}
+
+.sportheaderleft {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sportheaderright {
+  width: 70%;
+  display: grid;
+  place-items: center;
+}
+
+.sportheaderright > img,
+.sportheaderright > span > img {
+  width: 100%;
+  height: auto;
+}
+
+.sportheaderrightImg {
+  width: 80% !important;
+  height: auto;
+}
+
+/* -----------------Section3------------------------------- */
+
+.sectionn3container {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionn3 {
+  /* width: 60%; */
+}
+
+.sectionn3heading4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #2b3a5a;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+.sectionn3ptext {
+  color: #494b50;
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  line-height: 140%;
+}
+
+.section3flexodd,
+.section3flexeven {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(222, 218, 218);
+  margin-bottom: 2rem;
+}
+.section3flexleft {
+  width: 50%;
+}
+
+.section3flexright {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionn3fleximg {
+  width: 80%;
+  height: auto;
+}
+.containerMock {
+  position: relative;
+}
+.containerMockImg {
+  position: absolute;
+  width: 70%;
+  top: 0;
+  left: 5.1%;
+}
+/* -------------------Finance------------------------------- */
+
+.sectionn1heading3containerfunds {
+  position: absolute;
+  /* top: 10rem; */
+  top: 25%;
+  left: 50%;
+  /* left: 5rem; */
+  z-index: 10;
+  width: auto;
+}
+
+.sectionn1heading3containerboxfunds {
+  position: relative;
+  width: 70%;
+}
+
+.sectionn1heading3admission {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: #173753;
+}
+
+.sectionn1heading3fundcontainer {
+  position: absolute;
+
+  /* top: 25%;
+  left: 50%;
+
+  z-index: 10;
+  width: auto; */
+  top: 0;
+  height: 100%;
+  left: 40%;
+  width: 60%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionn1heading3fundcontainerbox {
+  width: 60%;
+}
+
+.sectionn1heading3fundsh3 {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: #173753;
+}
+
+.sectionn1heading3fundsh3nobreak {
+  display: none;
+}
+
+.sectionn1headingfundsptext {
+  margin-top: 1rem;
+
+  font-size: 1.1rem;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #564370;
+}
+
+.financeheadleft {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.financeheadright {
+  width: 40%;
+  display: grid;
+  place-items: center;
+}
+
+.financeheadright > img,
+.financeheadright > span > img {
+  height: 30rem;
+}
+
+.financeheading2 {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.financesection2container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.financesection2 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 4rem;
+}
+.financesection2bottom {
+  padding-left: 2rem;
+}
+.financesection2left {
+  width: 58%;
+}
+.financesection2right {
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.financesection2right > img,
+.financesection2right > span > img {
+  /* height: 20rem; */
+  width: 100%;
+  height: auto;
+}
+.financesection2bottom {
+}
+
+.underlin1 {
+  position: absolute;
+  top: 6.5rem;
+  width: 5rem;
+  color: rgb(61, 59, 59);
+  background-color: #6d6d6f;
+  height: 1px;
+}
+.underlin2 {
+  position: absolute;
+  top: 6.8rem;
+  width: 5rem;
+  left: 50%;
+  color: rgb(61, 59, 59);
+  background-color: #6d6d6f;
+  height: 2px;
+}
+
+.financesection3container {
+  position: relative;
+}
+
+.financeheading3 {
+  font-family: "Inter";
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.financesection3cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 4rem;
+}
+
+.financesection3container {
+  width: 100%;
+  background-color: rgba(250, 250, 250, 1);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.financesection3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.financesection3heading3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.financesection3heading3 > span {
+  color: #7293d9;
+}
+
+.financesection3headingp {
+  font-family: "Inter";
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 150%;
+}
+
+.financesection3headingimg {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 60%;
+  height: auto;
+}
+
+.financesection3headingbtn {
+  padding: 0.75rem 2.2rem;
+  background-color: #2b3a5a;
+  color: #f6f7f9;
+  font-size: 1rem;
+  display: grid;
+  place-items: center;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.financesection4container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.financesection4 {
+  padding: 2rem;
+}
+
+.sectionli > span {
+  color: #566573;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.financeli {
+  margin-bottom: 2rem;
+}
+
+/* -----------Career----------------------- */
+.careerSection2 {
+  width: 100%;
+  padding: 7.5rem 0;
+  background-color: #006f92;
+}
+
+.careerSection2Inner {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.featureSectionCover {
+  width: 44%;
+}
+
+.sectionCoverTitle {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 125%;
+  color: #fff;
+  animation: 1s slide-right;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.sectionCoverTitlep {
+  font-size: 1.3rem;
+  line-height: 120%;
+  margin-top: 1rem;
+  opacity: 0.7;
+  color: #fff;
+}
+
+@keyframes slide-right {
+  from {
+    margin-top: 3rem;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.featureSectionCoverContainerImg {
+  width: 44%;
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 3s infinite alternate;
+}
+
+.featureSectionCoverContainerImg > img,
+.featureSectionCoverContainerImg > span > img {
+  width: 100%;
+  filter: drop-shadow(0 20px 16px rgba(47, 59, 67, 0.6));
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.careerSection3 {
+  width: 100%;
+  padding: 2rem 3rem;
+  background-color: #fff;
+}
+
+.topServices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.topServiceCard {
+  width: 33.333%;
+  padding: 1rem;
+}
+
+.topServiceCardBox {
+  width: 100%;
+  text-align: center;
+  background: #083a50;
+  height: 20rem;
+  padding: 1.8rem;
+  border-radius: 0.35rem;
+  -webkit-border-radius: 5px;
+}
+
+.eventBox {
+  border: 1px solid #e2e8ed;
+  width: 100%;
+  height: 25rem;
+  box-sizing: border-box;
+  box-shadow: 0px 30px 30px #3f48501a;
+  padding: 1.8rem;
+  text-align: center;
+  border-radius: 0.35rem;
+}
+
+.topServiceCardBox picture,
+.eventBox picture {
+  display: flex;
+  justify-content: center;
+}
+
+.topServiceCardBox picture > img,
+.topServiceCardBox picture > span > img,
+.eventBox picture > img,
+.eventBox picture > span > img {
+  max-width: 25%;
+  height: auto;
+}
+
+.topServiceCardBox > h6 {
+  font-size: 1.2rem;
+  line-height: 120%;
+  font-family: sofia-pro-regular, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 1.2rem 0 0.8rem;
+  text-align: center;
+}
+
+.eventBox > h6 {
+  font-size: 1.2rem;
+  line-height: 120%;
+  font-family: sofia-pro-regular, sans-serif;
+  color: rgba(84, 80, 80, 0.8);
+  margin: 1.2rem 0 0.8rem;
+  text-align: center;
+}
+
+.topServiceCardBox > p {
+  font-size: 1.1rem;
+  line-height: 120%;
+  font-family: sofia-pro-light, sans-serif;
+  color: #fff;
+}
+
+.eventBox > p {
+  font-size: 1.1rem;
+  line-height: 120%;
+  font-family: sofia-pro-light, sans-serif;
+  color: #221f1f;
+  text-align: center;
+}
+
+.section3flexrightContainerImg {
+  width: 100%;
+  position: relative;
+}
+
+.careerContentUl,
+.alumniContentUl {
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+.careerContentUl > li,
+.alumniContentUl > li {
+  color: #717173;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  position: relative;
+  margin-bottom: 1.1rem;
+  padding-left: 1.3rem;
+}
+
+.careerContentUl > li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #ffa800;
+}
+
+.alumniContentUl > li::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  /* background-color: #ffa800; */
+}
+
+/* -----------Tender------------------------- */
+
+.aboutTender {
+  background: #f1f1f1;
+  padding: 5rem 2.5rem;
+}
+
+.aboutTenderh2 {
+  color: #495266;
+  font-size: 1.9rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.aboutTenderp {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #5f5d5d;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* -------------hostel------------------------ */
+.hostelcoverImg {
+  width: 60% !important;
+}
+
+.sectionn3flexHostelimg {
+  width: 50%;
+  height: auto;
+}
+
+.hostelNoticeImgContainer {
+  width: 90%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-start; */
+  background-color: rgba(146, 170, 223, 0.1);
+  border-radius: 60% 40% 59% 10%;
+}
+
+.hostelNoticeImg {
+  width: 60%;
+  height: auto;
+}
+
+.topServiceCardHostel {
+  width: 25%;
+  padding: 0.75rem;
+}
+
+.circleCard {
+  height: 28rem !important;
+}
+
+/* -----------Transport----------------------- */
+.transportCardContainer {
+  position: relative;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+/* .transportCardContainer::before {
+  content: "";
+  height: 100%;
+  background: url("/public/images/services/transport/dots.png") no-repeat;
+  left: 7px;
+  width: 62px;
+  top: 30%;
+  position: absolute;
+} */
+
+.transportCardContainerImgLeft {
+  position: absolute;
+  left: 0;
+}
+
+.transportCardContainerHeader {
+  font-size: 2rem;
+  line-height: 120%;
+  font-weight: 500;
+  color: #5d5d72;
+  text-align: center;
+}
+
+.transportCards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.75%;
+  margin-top: 2rem;
+}
+.transportCard {
+  box-shadow: 0px 29px 49px #00000026;
+  border-radius: 30px 30px 0 30px;
+  width: 31%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  cursor: context-menu;
+}
+
+.transportCard > img,
+.transportCard > span > img {
+  margin-bottom: 0.5rem;
+  height: 3rem;
+}
+.transportCard > h5 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 120%;
+}
+
+.transportCard:hover {
+  background: transparent linear-gradient(90deg, #6597cb 0%, #35369b 100%) 0% 0%
+    no-repeat;
+}
+
+.transportCard:hover .transportCardh5 {
+  color: #fff !important;
+}
+
+.transportCard:hover .transportCardp {
+  color: #fff !important;
+}
+/* ------------------------------------ */
+
+@media only screen and (min-width: 1345px) {
+  .sectionn1heading3 {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  .sectionn1headingptext {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 1345px) {
+  .sectionn1heading3container {
+    position: absolute;
+    /* top: 15rem;
+    left: 5rem; */
+    top: 25%;
+    left: 15%;
+    z-index: 10;
+  }
+  .sectionCoverTitle {
+    font-size: 3rem;
+  }
+
+  .sectionn3flexHostelimg {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .admissionheading {
+    font-size: 3rem;
+  }
+
+  .eventBox {
+    height: 27rem;
+  }
+
+  .eventBox > p {
+    font-size: 1rem;
+  }
+
+  .sectionCoverTitle {
+    font-size: 2.6rem;
+  }
+
+  .admissiontagline {
+    font-size: 1.2rem;
+  }
+
+  .sectionn1headerleftbutton {
+    padding: 0.75rem 3rem;
+  }
+
+  .sectionn1headerrightbutton {
+    padding: 0.75rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .sectionn3fleximg {
+    width: 100%;
+  }
+
+  .containerMockImg {
+    width: 89%;
+    left: 5.8%;
+  }
+  .sectionn1heading3containerboxfunds {
+    width: 80%;
+  }
+
+  .sectionCoverTitle {
+    font-size: 2.3rem;
+  }
+
+  .sectionn1heading3fundsh3 {
+    text-align: center;
+  }
+
+  .sectionn1headingfundsptext {
+    text-align: center;
+  }
+
+  .sectionn1heading3container {
+    top: 12%;
+  }
+
+  .financesection2right > img {
+    height: 18rem;
+  }
+
+  .sectionn3flexHostelimg {
+    width: 75%;
+  }
+
+  .hostelNoticeImgContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .topServiceCardHostel {
+    width: 49%;
+  }
+
+  .circleCard {
+    height: 23rem !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .admissionheading {
+    font-size: 2.7rem;
+  }
+
+  .admissiontagline {
+    font-size: 1.2rem;
+  }
+
+  .sectionn1headerleftbutton,
+  .sectionn1headerrightbutton {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 918px) {
+  .sectionn1heading3container {
+    position: absolute;
+    /* top: 10rem;
+    left: 5rem; */
+    z-index: 10;
+  }
+
+  .eventBox {
+    height: 32rem;
+  }
+
+  .sectionCoverTitle {
+    font-size: 2rem;
+  }
+
+  .sectionn1heading3containerbox {
+    position: relative;
+    width: 60%;
+  }
+
+  .sectionn1heading3fundsh3 {
+    font-size: 2.5rem;
+    display: none;
+  }
+
+  .sectionn1heading3fundsh3nobreak {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    color: #173753;
+  }
+
+  .sectionn1headingfundsptext {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .sectionn1headerrightbutton,
+  .sectionn1headerleftbutton {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+
+  .financetagline {
+    font-size: 1rem;
+  }
+
+  .sectionn3flexHostelimg {
+    width: 85%;
+  }
+  .hostelNoticeImg {
+    width: 80%;
+  }
+
+  .transportCard {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .sectionn2 {
+    display: block;
+    padding: 2rem;
+  }
+
+  .eventBox {
+    height: 26rem;
+  }
+
+  .topServiceCard {
+    width: 49%;
+  }
+
+  .careerSection2Inner {
+    flex-direction: column;
+  }
+
+  .featureSectionCover {
+    width: 100%;
+  }
+
+  .sectionCoverTitle {
+    font-size: 2.5rem;
+  }
+
+  .featureSectionCoverContainerImg {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .featureSectionCoverContainerImg > img,
+  .featureSectionCoverContainerImg > span img {
+    width: 90%;
+  }
+
+  .careerSection2 {
+    padding: 3rem 0;
+  }
+
+  .sectionn1heading3admission {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .sectionn1header {
+    display: none;
+    background-color: #9672c3;
+  }
+
+  .financeheaderContainer {
+    width: 100%;
+    height: 20rem;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    display: block;
+  }
+
+  .financeheader {
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent);
+    width: 100%;
+    height: 100%;
+
+    padding: 4rem;
+    padding-left: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+  }
+
+  .financeheaderbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 2.3rem;
+    text-transform: none;
+    line-height: 1.3;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .sectionn2container {
+    padding: 2rem;
+  }
+
+  .financeheaderTextContainer {
+    display: block;
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+
+  .financeheaderText {
+    background-color: rgb(253, 250, 255);
+    color: #4c4c4c;
+    font-size: 1.1rem;
+    padding: 1rem;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+  }
+
+  .admissionheaderresponsivecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 100%;
+  }
+
+  .admissionheaderresponsive {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .admissionMgt {
+    background: rgb(253, 250, 255);
+  }
+
+  .admissionheadingresponsive {
+    color: rgb(246, 243, 243);
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 600;
+  }
+
+  .admissiontaglineresponsive {
+    color: #afb3b5;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 160%;
+  }
+
+  .sectionn1headerleftbuttonresponsive {
+    background-color: #2b3a5a;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    border-radius: 1.5rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .sectionn1headerrightbuttonresponsive {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    border-radius: 1.5rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0.05rem solid #fff;
+  }
+
+  .sectionn2container {
+    padding: 2rem 2rem;
+  }
+
+  .sectionn2 {
+    padding: 3rem 1rem;
+  }
+
+  .sectionn3container {
+    padding: 2rem;
+  }
+
+  .financeheading {
+    font-size: 2.3rem !important;
+  }
+
+  /* .financebuttons {
+    flex-direction: column !important;
+  } */
+
+  .financetagline {
+    font-size: 0.9rem;
+  }
+
+  .financeleftbutton,
+  .financerightbutton {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .financeheadright > img {
+    height: 15rem;
+  }
+
+  .financerightbutton {
+  }
+
+  .financesection2 {
+    flex-direction: column;
+  }
+  .financesection2left {
+    width: 100%;
+  }
+
+  .financesection2right {
+    width: 100%;
+  }
+
+  .financesection2right > img {
+    height: auto;
+  }
+
+  .elearningheader {
+    display: none;
+  }
+
+  .libraryheader {
+    display: none;
+  }
+
+  .librarysection4container {
+    flex-direction: column;
+  }
+
+  .libraryheading4 {
+    width: 100%;
+  }
+
+  .financeheading4right {
+    width: 100%;
+  }
+  .financeheading4right > img,
+  .financeheading4right > span > img {
+    width: 80%;
+  }
+
+  .sportheader {
+    display: none;
+  }
+
+  .sectionn3flexHostelimg {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionn1heading3container {
+    top: 15%;
+    left: 15%;
+  }
+  .sectionn1heading3containerbox {
+    width: 60%;
+  }
+  .sectionn1heading3containerfunds {
+    top: 20%;
+  }
+
+  .section3flexleft {
+    width: 100%;
+  }
+
+  .section3flexright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section3flexodd {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .section3flexeven {
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+  }
+
+  .sectionn1heading3fundcontainerbox {
+    width: 75%;
+  }
+
+  .admissiontaglineresponsive {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .financeheader {
+    display: none;
+  }
+
+  .financesection3headingimg {
+    width: 70%;
+    height: auto;
+  }
+
+  .financesection3headingbtn {
+    padding: 0.65rem 1.5rem;
+
+    font-size: 1rem;
+  }
+
+  .underlin11 {
+    display: none !important;
+  }
+  .underlin22 {
+    display: none !important;
+  }
+
+  .sectionn3flexHostelimg {
+    width: 65%;
+  }
+
+  .hostelNoticeImgContainer {
+    width: 70%;
+  }
+
+  .hostelNoticeImg {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .financesection3headingimg {
+    width: 85%;
+    height: auto;
+  }
+
+  .careerContentUl {
+    padding-left: 0 !important;
+  }
+
+  .topServiceCard {
+    width: 95%;
+  }
+
+  .topServiceCardBox picture > img,
+  .topServiceCardBox picture > span > img {
+    max-width: 18%;
+  }
+
+  .financesection3headingbtn {
+    padding: 0.5rem 1rem;
+
+    font-size: 1rem;
+  }
+  .sectionn3ptext {
+    font-size: 1rem;
+  }
+
+  .financesection4container {
+    padding: 0;
+  }
+
+  .topServiceCardHostel {
+    width: 99%;
+  }
+
+  .transportCard {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .admissionheadingresponsive {
+    font-size: 2.4rem;
+  }
+
+  .careerSection2Inner {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .sectionCoverTitle {
+    font-size: 2.2rem;
+  }
+
+  .sectionCoverTitlep {
+    font-size: 1.1rem;
+  }
+
+  .admissiontaglineresponsive {
+    font-size: 1rem;
+  }
+
+  .sectionn1headerleftbuttonresponsive,
+  .sectionn1headerrightbuttonresponsive {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .sectionli {
+    font-size: 1.1rem;
+  }
+
+  .financeheading2 {
+    font-size: 1.8rem;
+  }
+
+  .underlin1 {
+    position: absolute;
+    top: 6rem;
+    width: 5rem;
+    left: 35%;
+  }
+  .underlin2 {
+    position: absolute;
+    top: 6.3rem;
+    left: 40%;
+  }
+
+  .financesection3heading3 {
+    font-size: 1.8rem;
+  }
+
+  .financesection2 {
+    padding: 0;
+  }
+
+  .financesection2right > img {
+    margin-bottom: 2rem;
+  }
+
+  .financesection2bottom {
+    padding-left: 0;
+  }
+
+  .library3wrap > h4 {
+    font-size: 2.4rem;
+  }
+  .library3left {
+    padding: 0rem;
+  }
+
+  .library3leftp {
+    font-size: 1.1rem;
+  }
+
+  .hostelNoticeImgContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .financeheaderContainer {
+    height: 15rem;
+  }
+  .topServiceCardBox picture > img,
+  .topServiceCardBox picture > span > img {
+    max-width: 25%;
+  }
+  .financeheader {
+    /* padding: 2rem;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent); */
+  }
+  .financeheaderbox {
+    font-size: 2rem;
+  }
+  .sectionn1headerleftbuttonresponsive,
+  .sectionn1headerrightbuttonresponsive {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.8rem;
+  }
+  .sectionli {
+    font-size: 1rem;
+  }
+
+  .financesection3headingimg {
+    width: 80%;
+    height: auto;
+  }
+
+  .financesection3headingbtn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .financesection3headingp {
+    font-size: 1rem;
+  }
+
+  .financesection3cards {
+    padding: 2rem;
+  }
+
+  .financeheading4right > img,
+  .financeheading4right > span > img {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .financeheading2 {
+    font-size: 1.5rem;
+  }
+  .financesection3cards {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .admissionheadingresponsive {
+    font-size: 2.1rem;
+  }
+
+  .careerSection3 {
+    padding: 2rem 1.5rem;
+  }
+
+  .admissiontaglineresponsive {
+    font-size: 0.9rem;
+  }
+
+  .sectionn1headerleftbutton,
+  .sectionn1headerrightbutton {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+
+  .transportCard {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .financeheading2 {
+    font-size: 1.3rem;
+  }
+
+  .careerSection3 {
+    padding: 2rem 0.5rem;
+  }
+
+  .financesection3cards {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .financeheader {
+    padding: 1.2rem;
+  }
+
+  .financeheaderbox {
+    font-size: 1.5rem;
+  }
+
+  .admissionheadingresponsive {
+    font-size: 1.8rem;
+  }
+
+  .admissiontaglineresponsive {
+    font-size: 0.8rem;
+  }
+
+  .sectionn1headerleftbuttonresponsive,
+  .sectionn1headerrightbuttonresponsive {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .financeheading2 {
+    font-size: 1.2rem;
+  }
+}

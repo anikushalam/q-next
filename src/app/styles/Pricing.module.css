@@ -1,0 +1,263 @@
+.pricing {
+}
+
+.pricingbody {
+  background: #fdfcff;
+  padding-top: 3vw;
+}
+
+.insContainerr {
+  padding: 1rem;
+}
+.lightnavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.insContainer {
+  padding: 0.3rem 0.5rem;
+  background-color: #455cf1;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.15rem;
+}
+
+.insContainer > img {
+  margin-top: 0.35rem;
+}
+
+.insContainer > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.85rem;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 0 !important;
+}
+
+.pricingtop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* margin-top: 3vw;
+  margin-bottom: 2rem; */
+}
+
+.pricingtop img {
+  margin-top: 2vw;
+}
+
+.pricinimg {
+  height: 2rem;
+  margin-top: 0 !important;
+}
+
+.regtextimg {
+  height: 2.8rem;
+}
+
+.regbtnimg {
+  height: 2.2rem;
+  cursor: pointer;
+}
+
+.pricingmid {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.pricingcard {
+  padding: 1vw;
+}
+
+.pricincardimg {
+  width: 20rem;
+  background: #ffffff;
+  border: 0.2px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  padding: 1vw;
+  height: 82rem;
+}
+
+.pricincardimg h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #010d31;
+}
+
+.pricincardimg h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 36px;
+  /* identical to box height */
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  color: #010d31;
+}
+
+.marginh4 {
+  margin-bottom: 0.5rem !important;
+}
+
+.pricincardimg h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  /* identical to box height */
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+
+  color: #010d31;
+}
+
+.pricincardimg ul {
+  padding: 1rem;
+}
+.pricincardimg ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-bottom: 1vw;
+}
+
+.pricincardimg ul li > p {
+  margin-bottom: 0 !important;
+}
+.pricincardimg img {
+  height: 1rem;
+}
+.pricincardimg > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  margin-bottom: 0;
+  color: rgba(1, 13, 49, 0.8);
+}
+
+.installp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 1rem !important;
+  color: rgba(28, 2, 59, 0.5) !important;
+  margin-bottom: 1rem;
+}
+.pricincardimg:hover {
+  -webkit-box-shadow: 10px 10px 28px -5px rgba(189, 178, 189, 1);
+  -moz-box-shadow: 10px 10px 28px -5px rgba(189, 178, 189, 1);
+  box-shadow: 10px 10px 28px -5px rgba(189, 178, 189, 1);
+}
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .pricincardimg {
+    width: 22rem;
+  }
+
+  .pricingmid {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pricingmid {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+/* --------------Modal---------------------------- */
+.addDisplay {
+  width: 600px;
+  padding: 2rem;
+  background: #fafafa;
+  border-radius: 12px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #121212;
+}
+.title img {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.bttn {
+  width: 5rem;
+  padding: 0.5rem 5rem;
+  background-color: #f0e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-family: "Inter";
+}
+
+.bttn:hover {
+  background-color: #1c023b;
+  color: white;
+}

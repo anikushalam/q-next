@@ -1,0 +1,122 @@
+.financesection2container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 3rem;
+  position: relative;
+}
+.underlin11 {
+  top: 6.7rem !important;
+}
+.underlin22 {
+  top: 7rem !important;
+}
+.underlin1 {
+  position: absolute;
+  top: 6.5rem;
+  width: 5rem;
+  left: 45%;
+  color: rgb(61, 59, 59);
+  background-color: #6d6d6f;
+  height: 1px;
+}
+.underlin2 {
+  position: absolute;
+  top: 6.8rem;
+  width: 5rem;
+  left: 48%;
+  color: rgb(61, 59, 59);
+  background-color: #6d6d6f;
+  height: 2px;
+}
+
+.financeheading2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: "Inter";
+  color: #343a40;
+}
+
+.financesection3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.financeheading3 {
+  font-family: "Inter";
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 150%;
+  font-weight: 500;
+  color: #343a40;
+}
+.financesection3cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .underlin11 {
+    display: none !important;
+  }
+  .underlin22 {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .underlin1 {
+    position: absolute;
+    top: 6rem;
+    width: 5rem;
+    left: 35%;
+  }
+  .underlin2 {
+    position: absolute;
+    top: 6.3rem;
+    left: 40%;
+  }
+  .financeheading2 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .financesection3cards {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .financeheading2 {
+    font-size: 1.5rem;
+  }
+  .financesection3cards {
+    padding: 1rem;
+  }
+  .financesection3cards {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .financeheading2 {
+    font-size: 1.3rem;
+  }
+  .financesection3cards {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .financeheading2 {
+    font-size: 1.2rem;
+  }
+}

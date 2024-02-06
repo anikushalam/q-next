@@ -1,0 +1,634 @@
+/* ---------About Us-------------------- */
+.title {
+  color: #000;
+  font-family: Inter;
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.invisibletext {
+  visibility: hidden;
+  font-size: 0.01rem;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: var(--font-family);
+  text-align: center;
+}
+.about-us {
+  background-image: var(--gradient-background);
+}
+#About-Us {
+  scroll-behavior: smooth;
+}
+.about-us__title {
+  color: white;
+  margin: 20px;
+}
+.about-us__text {
+  color: white;
+  margin: 20px;
+}
+.about-us__video {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* ---------Download App-------------------- */
+
+.download-app {
+  margin-top: 30px;
+}
+.downloadtitle {
+  color: #c7c4c4;
+}
+.download-playStore {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.download-playStore img {
+  width: 150px;
+}
+
+.download-app__features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: wrap;
+}
+.download-app__box {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.download-app__text {
+  color: white;
+  margin-top: 5px;
+}
+
+.download_count {
+  color: white;
+  margin-top: 10px;
+}
+/* -----------Our Team------------------- */
+.our-team {
+  margin-top: 30px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide .team-member {
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--primary-color); */
+  width: 80%;
+  height: 150px;
+  margin: 30px 30px 40px 30px;
+  border-radius: 10px;
+}
+
+.team-member__name {
+  font-family: var(--font-family);
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+}
+.team-member__position {
+  font-family: var(--font-family);
+  font-size: 20px;
+  text-align: center;
+}
+.team-member img {
+  width: 80px;
+  margin: 20px;
+}
+.social {
+  height: 1.7rem;
+  width: 1.7rem;
+}
+/* ----------Accordion------------------------ */
+.AccordionSection {
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 12rem;
+  background-color: var(--faq-bg-color);
+}
+.accordiontitle {
+  /* color: var(--faq-heading-color); */
+  font-family: "Cormorant SC";
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.plus-minus {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.Accordion_FAQs {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.AccordionStyles_Wrap {
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--accordion-item-bg-color);
+}
+
+.AccordionStyles_Question {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.accordion_sub-title {
+  text-align: start;
+  font-weight: 600;
+  color: var(--accordion-question-color);
+}
+.accordion_answer {
+  text-align: start;
+
+  color: var(--about-text-color);
+}
+
+.AccordionStyles_Wrap span {
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accordion-wrap-icon-color);
+}
+
+.AccordionStyles_Dropdown {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ------------------------------------ */
+.Accordion_FAQs .AccordionStyles_Wrap .acccontent {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+.Accordion_FAQs .AccordionStyles_Wrap.accordionactive .acccontent {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: 0.5s;
+  height: 50rem;
+}
+.Accordion_FAQs .AccordionStyles_Wrap.accordionactive .acccontent.question_1 {
+  height: 10rem;
+}
+.Accordion_FAQs .AccordionStyles_Wrap.accordionactive .acccontent.question_2,
+.Accordion_FAQs .AccordionStyles_Wrap.accordionactive .acccontent.question_3 {
+  height: 48rem;
+}
+
+.Accordion_FAQs .AccordionStyles_Wrap::-webkit-scrollbar,
+.acccontent::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* -------------Footer------------------ */
+.footer-container {
+  background-color: aqua;
+  color: white;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: var(--color-footer);
+  height: auto;
+  padding: 310px 10px 0px 10px;
+}
+
+.footer__contact-info {
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 30px;
+}
+.footer__mail-icon,
+.footer__call-icon {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 5px;
+}
+.footer hr {
+  height: 5px;
+  border-radius: 10px;
+  width: 200px;
+  background-color: var(--primary-color);
+  border: none;
+  margin: 20px auto;
+}
+.footer-divider hr {
+  background-color: var(--text-color);
+}
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.footer_col {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+.footer-quick-links::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: white;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer_col ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.footer_col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer_col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer_col .footer__social_links a {
+  display: inline-block;
+
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  margin: 10px 15px 0 15px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+/* .footer_col .social_links a:hover {
+      color: #24262b;
+      background-color: #ffffff;
+    } */
+.footer-quick-links {
+  text-align: left;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.copyright {
+  padding-bottom: 0px;
+}
+.copyright-text {
+  text-align: center;
+  margin: 30px 30px 10px 30px;
+  line-height: 150%;
+}
+
+.footer-contact-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+/* ------------------------------ */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar__icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar__icons__call,
+.navbar__icons__home {
+  border-radius: 50%;
+  padding: 5px;
+}
+.navbar__icons__call img {
+  height: 20px;
+}
+.navbar__icons__home img {
+  height: 20px;
+}
+
+nav a {
+  font-family: var(--font-family);
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: #232233;
+  text-decoration: none;
+}
+
+.menubar {
+  height: 2rem;
+  width: 2.1rem;
+}
+
+.navbar__icons__hamburger .navbar__icons__hamburger__btn {
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar__icons__hamburger nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: white;
+  transition: 1s;
+  transform: translateY(-100vh);
+}
+
+.navbar__icons__hamburger .responsive_nav {
+  width: 100%;
+  transform: none;
+  background-color: white;
+  z-index: 10;
+}
+.nav-hamburger-btn {
+  background: transparent;
+}
+.nav-close-btn {
+  padding: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  top: 2rem;
+  right: 2rem;
+  border-radius: 100%;
+  user-select: none;
+}
+/* -----------About Qviple--------------------- */
+.about-qviple__hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-qviple__hero-img img {
+  z-index: -1;
+}
+.about-qviple__content {
+  background-image: var(--gradient-background);
+  z-index: 10;
+  padding: 30px 0px;
+  margin-top: -10px;
+}
+.join-us__Qviple {
+  color: var(--primary-color);
+}
+.about-qviple-box {
+  margin: 10px 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  width: 90%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.about-qviple__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-qviple__info__title p::first-letter {
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* ---------------Caeer Form------------------- */
+.contact-us__container {
+  margin-top: 30px;
+}
+.Contact-Us {
+  width: 100%;
+  height: auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  position: relative;
+
+  display: block !important;
+}
+
+.Contact-Us input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: var(--font-family);
+  font-size: 18px;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+.Contact-Us input:focus {
+  border-bottom: 2px solid #78788c;
+}
+.Contact-Us p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 20px;
+  color: #5a5a5a;
+}
+.Contact-Us button {
+  margin: 20px 0 0;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 10px;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Contact-Us button:hover {
+  background: var(--primary-color);
+
+  color: #fff;
+}
+/* ----------Steps--------------- */
+
+.timeline {
+  margin: 0px auto;
+  padding: 20px;
+}
+
+/* Outer Layer with the timeline border */
+.steps__outer {
+  border-left: 2px solid var(--line-color);
+}
+
+/* steps__card container */
+.steps__card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  /* box-shadow: var(--box-shadow); */
+
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+/* steps__information about the timeline */
+.steps__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* steps__title of the steps__card */
+.steps__text {
+  position: relative;
+  text-align: left;
+}
+
+/* Timeline dot  */
+.steps__text::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--line-dot-color);
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid white;
+}
+
+@media only screen and (max-width: 992px) {
+  .AccordionSection {
+    padding: 5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .AccordionSection {
+    padding: 5rem 3rem;
+  }
+  .accordiontitle {
+    color: var(--faq-heading-color);
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .AccordionSection {
+    padding: 5rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .about-us {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .AccordionSection {
+    padding: 3rem 0.75rem;
+  }
+}

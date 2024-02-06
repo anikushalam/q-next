@@ -1,0 +1,17 @@
+.modal {
+  max-width: 80ch;
+  padding: 0.5rem;
+  border: 0;
+  outline: none;
+  box-shadow: 0 0 1em rgb(0, 0, 0 / 0.3);
+  position: relative;
+}
+
+.closeicon {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  height: 1.1rem;
+  width: 1.1rem;
+  cursor: pointer;
+}

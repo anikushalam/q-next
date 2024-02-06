@@ -1,0 +1,170 @@
+[
+  {
+    "section": "header",
+    "image": {
+      "logo": "https://d3dqpu54js2vfl.cloudfront.net/web-client/newLogo.svg",
+      "logo_alt": "",
+      "phone_icon": "https://ik.imagekit.io/birat22/Qviple_Landing/phone-icon-white.png",
+      "phone_icon_alt": ""
+    },
+    "content": {
+      "logo_text": "QVIPLE",
+      "feature_text": "Features",
+      "about_us_text": "About Us",
+      "modules_text": "Modules",
+      "pricing_text": "Pricing",
+      "user_guide_text": "User Guide",
+      "career": "Career",
+      "call_now_text": "Call Now!",
+      "signin_text": "Sign In",
+      "get_started_text": "Get Started",
+      "login": "Login",
+      "home_text": "Home",
+      "contact_us_text": "Contact Us",
+      "need_of_every_ins_text": "NEED OF EVERY EDUCATIONAL INSTITUTION",
+      "complete_erp_setup_text": "Complete ERP setup and installation at free of cost with zero Annual Maintenance Cost",
+      "mobile_text": "Mobile",
+      "web_text": "Web"
+    }
+  },
+  {
+    "section": "services",
+    "image": {
+      "admision_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/admision-icon.svg",
+      "funds_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/funds-icon.svg",
+      "department_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/department-icon.svg",
+      "elearning_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/elearning-icon.svg",
+      "library_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/library-icon.svg",
+      "sports_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/sports-icon.svg",
+      "event_seminar_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/event-seminar-icon.svg",
+      "alumni_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/alumni-icon.svg",
+      "career_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/career-icon.svg",
+      "tender_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/tender-icon.svg",
+      "transport_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/transport-icon.svg",
+      "hostel_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/hostel-icon.svg",
+      "admision_icon_alt": "Admission Management",
+      "funds_icon_alt": "Funds Management",
+      "department_icon_alt": "Customised Department",
+      "elearning_icon_alt": "Dedicated E-learning Platform",
+      "library_icon_alt": "Library Module",
+      "sports_icon_alt": "Dedicated Sports & Arts Departments",
+      "event_seminar_icon_alt": "Event And Seminar Management",
+      "alumni_icon_alt": "Stay Connected to your Alma Mater",
+      "career_icon_alt": "Career Management Center",
+      "tender_icon_alt": "Tender Management",
+      "transport_icon_alt": "Transportation Network",
+      "hostel_icon_alt": "Hostel Management"
+    },
+    "content": {
+      "saas_plateform_text": "SaaS platform that provides",
+      "premium_feature_text": "premium features at free of cost for lifetime",
+      "limited_offer_text": "Limited time offer till",
+      "regiter_now": "Register Now",
+      "admission_mgt_title": "Admission Management",
+      "admission_mgt_para": "Application to performed catalogs all covered.",
+      "funds_mgt_title": "Funds Management",
+      "funds_mgt_para": "Online-offline both payment modes available.",
+      "custom_dept_title": "Customised Department",
+      "custom_dept_para": "Departments as per you needs like yearly batches or semester wise.",
+      "elearning_title": "Dedicated E-learning Platform",
+      "elearning_para": "No need spend money on developing your app use it like yours.",
+      "library_title": "Library Module",
+      "library_para": "Online-offline both payment modes available.",
+      "sports_mgt_title": "Dedicated Sports & Arts Departments",
+      "sports_mgt_para": "Empower the sports and arts a country needs",
+      "event_mgt_title": "Event And Seminar Management",
+      "event_mgt_para": "Explore the ongoing and upcoming events",
+      "alumni_cell_para": "Stay Connected to your Alma Mater",
+      "alumni_cell_title": "Alumni Cell",
+      "career_mgt_title": "Career Management Center",
+      "career_mgt_para": "Strive to Involve Employees in Setting Their Own Goals ",
+      "tender_mgt_title": "Tender Management",
+      "tender_mgt_para": "Facilitates the Complete Tendering Process With the Exception of Advertising",
+      "transport_mgt_title": "Transportation Network",
+      "transport_mgt_para": "Transportation Network with Vehicle Service for Institute",
+      "hostel_mgt_title": "Hostel Management",
+      "hostel_mgt_para": "Provides Hostel Activities like Hostel Admissions, Fees, Room, Mess etc.",
+      "view_details": "View Details"
+    }
+  },
+  {
+    "section": "brochure",
+    "image": {
+      "brochure_click_book": "https://ik.imagekit.io/birat22/Qviple_Landing/brochure-click-book.svg",
+      "brochure_click_book_alt": "download",
+      "mgt_qr_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/landing-page/brochure/mgt_qr.svg",
+      "alt_mgt_qr": "mgt_qr",
+      "staff_qr_icon": "https://d3dqpu54js2vfl.cloudfront.net/landing-page/brochure/staff_qr.svg",
+      "staff_qr_alt": "staff_qr",
+      "brochure_download_app": "https://ik.imagekit.io/birat22/Qviple_Landing/brochure-download-app.svg",
+      "brochure_download_app_alt": "",
+      "download_app_text": "https://ik.imagekit.io/birat22/Qviple_Landing/download-app-text.svg",
+      "download_app_text_alt": "",
+      "book_icon": "https://d3dqpu54js2vfl.cloudfront.net/landing-page/brochure/book.svg",
+      "book_icon_alt": ""
+    },
+    "content": {
+      "separate_app_text": "Separate Apps for",
+      "mgt_and_staff_student": "management And Staffs & Students/Parents"
+    }
+  },
+  {
+    "section": "about",
+    "image": {
+      "about_us_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/about-us.svg",
+      "about_us_icon_alt": "about us"
+    },
+    "content": {
+      "about_us": "About Us",
+      "about_us_heading": "Qviple",
+      "about_us_heading2": "is part of Mithkal Minds Private Limited company based in Nashik,providing SaaS services.",
+      "about_us_sub_text": "We believe in embracing everyone, that’s why we provide services at price you want to pay.",
+      "about_us_sub_text2": "Our enthusiastic team will always be there for you to help you out."
+    }
+  },
+  {
+    "section": "faq",
+    "image": {
+      "about_us_icon": "https://d3dqpu54js2vfl.cloudfront.net/web-client/about-us.svg",
+      "about_us_icon_alt": "about us"
+    },
+    "content": {
+      "faq_header": "Frequently Asked Questions",
+      "accordion_question1": "Is it really for free?",
+      "accordion_answer1": "We believe in embracing everyone, so the services are free of cost for lifetime if registered within offer time. (Free services include all necessary features for working of institute, add ons will be paid in future, Above mention features will be free for lifetime)",
+      "join_staff_question": "How to join institute as staff ?",
+      "joint_staff_step1": "Go to Qviple.com",
+      "joint_staff_step2": "Create new account / log in to your account(If already have an account)",
+      "joint_staff_step3": "Search your institute",
+      "joint_staff_step4": "View Institute Profile",
+      "joint_staff_step5": "Click on Join/Apply button",
+      "joint_staff_step6": "Click on Join (For existing members)",
+      "joint_staff_step7": "Click on join as staff",
+      "joint_staff_step8": "Enter institute code provided by institutes",
+      "joint_staff_step9": "Fill joining form",
+      "joint_staff_step10": "Wait for approval from institute (See status in Members Tab next to Home)",
+      "join_student_question": "How to join institute as student ?",
+      "joint_student_step1": "Go to Qviple.com",
+      "joint_student_step2": "Create new account / log in to your account(If already have an account)",
+      "joint_student_step3": "Search your institute",
+      "joint_student_step4": "View Institute Profile",
+      "joint_student_step5": "Click on Join/Apply button",
+      "joint_student_step6": "Click on Join (For existing members)",
+      "joint_student_step7": "Click on join as student",
+      "joint_student_step8": "Enter class code provided by institutes",
+      "joint_student_step9": "Fill joining form",
+      "joint_student_step10": "Wait for approval from institute (See status in Members Tab next to Home)"
+    }
+  },
+  {
+    "section": "getintouch",
+    "image": {
+      "about_us_icon": "https://ik.imagekit.io/birat22/Qviple_Landing/mail_sent.svg",
+      "about_us_icon_alt": "get in touch"
+    },
+    "content": {
+      "get_in_touch": "Get in touch",
+      "get_in_touch_text": "Want to get in touch? We&#39;d love to hear from you. Here&#39;s how you can reach us..."
+    }
+  }
+]

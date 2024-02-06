@@ -1,0 +1,169 @@
+.about {
+  display: flex;
+  padding: 2rem;
+  background-image: var(--about-bg-color);
+  background-color: var(--team-bg-color);
+}
+.imgContainer {
+  width: 45vw;
+  display: flex;
+  align-items: center;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.textContainer {
+  flex: 1;
+}
+.videocontainer {
+  display: none;
+}
+.imgOverlay {
+  display: none;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.aboutText h2 {
+  font-family: "Cormorant SC";
+  color: var(--about-heading-color);
+  font-weight: 700;
+  font-size: 3rem;
+
+  margin-bottom: 3rem;
+}
+
+.aboutText p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 160%;
+  margin-top: 0.4vw;
+  color: var(--about-text-color);
+  text-align: left;
+}
+
+.spann {
+  font-weight: 600;
+}
+.spann a {
+  text-decoration: none;
+  color: var(--about-anchor-color);
+}
+
+.spann:hover {
+  cursor: pointer;
+}
+
+.pspan {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: rgb(81, 93, 146);
+}
+.pspan a {
+  color: #3081ed;
+}
+@media only screen and (max-width: 12802px) {
+  .aboutText p {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .aboutText h2 {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+  }
+  .imgContainer,
+  .textContainer {
+    width: 75%;
+  }
+
+  .aboutText p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .imgContainer {
+    width: 75%;
+  }
+  .imgContainer img {
+    width: 100%;
+  }
+
+  .textContainer {
+    width: 85%;
+  }
+  .aboutText p {
+    font-size: 0.9rem;
+    line-height: 150%;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .imgContainer {
+    width: 80%;
+  }
+  .textContainer {
+    width: 90%;
+  }
+  .aboutText p {
+    font-size: 1.1rem;
+    line-height: 150%;
+    margin-bottom: 0.75rem;
+  }
+  .videocontainer {
+    display: block;
+  }
+  .imgContainer {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .aboutText {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+  .imgContainer {
+    height: 25rem;
+  }
+  .about {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .imgContainer {
+    height: 21rem;
+  }
+  .aboutText {
+    padding: 0 1rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .imgContainer {
+    height: 18rem;
+  }
+  .about {
+    padding: 1rem;
+  }
+}
