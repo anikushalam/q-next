@@ -17,12 +17,15 @@ function GetInTouchForm({ onClose }) {
   });
   const textArea =
     typeof document !== "undefined" && document.querySelector("textarea");
-  textArea?.addEventListener("keyup", (e) => {
-    textArea.style.height = "auto";
-    let scHeight = e.target.scrollHeight;
+  if (textArea) {
+    textArea?.addEventListener("keyup", (e) => {
+      textArea.style.height = "auto";
+      let scHeight = e.target.scrollHeight;
 
-    textArea.style.height = `${scHeight}px`;
-  });
+      textArea.style.height = `${scHeight}px`;
+    });
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setDisabled(true);
