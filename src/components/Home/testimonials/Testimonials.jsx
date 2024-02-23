@@ -19,7 +19,7 @@ function Testimonials() {
       img: "/images/testimonials/kishor-joshi.jpeg",
       name: "Kishor Joshi",
       text: "Qviple has transformed financial management at Sardar Patel College of Engineering. It has proven to be an invaluable asset in enhancing the financial efficiency of our institution.",
-      designation: "Finance Administrator, SND College of Engineering, Yeola",
+      designation: "Finance Administrator, Sardar Patel College of Engineering",
     },
     {
       img: "/images/testimonials/ramesh-khairnar.jpeg",

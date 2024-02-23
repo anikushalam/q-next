@@ -33,7 +33,11 @@ function HeadSection({ resStatus }) {
           </p>
 
           <div className={style.headingtextbuttons}>
-            <a
+            <a href="/demo">
+              <span className={style.invisibletext}>Book a Demo</span>
+              <button className={style.headingtextbutton}>Book a Demo</button>
+            </a>
+            {/* <a
               href={
                 resStatus
                   ? "https://play.google.com/store/search?q=qviple&c=apps"
@@ -42,7 +46,7 @@ function HeadSection({ resStatus }) {
             >
               <span className={style.invisibletext}>Get Started</span>
               <button className={style.headingtextbutton}>Get started</button>
-            </a>
+            </a> */}
           </div>
         </div>
         {!resStatus && (
