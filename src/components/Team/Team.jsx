@@ -10,8 +10,8 @@ function Team({ resStatus }) {
     { name: "Abhishek Singh", designation: "Chief Technical Officer" },
     { name: "Ankush Kumar Singh", designation: "Product Lead" },
     { name: "Tushar Bhambere", designation: "Application Lead" },
-    { name: "Birat Dhar", designation: "Front End Developer" },
-    { name: "Nikita Soni", designation: "Digital Markrting Manager" },
+    // { name: "Birat Dhar", designation: "Front End Developer" },
+    // { name: "Nikita Soni", designation: "Digital Markrting Manager" },
   ];
   return (
     <>

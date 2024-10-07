@@ -6,7 +6,7 @@ import Head from "next/head";
 import HeadSection from "../HeadSection/HeadSection";
 import { LazyImg } from "@/dynamiclib/Lazy/LazyImage";
 import { imagekitUrl } from "@/utils/BaseUrl";
-import Testimonials from "./testimonials/Testimonials";
+// import Testimonials from "./testimonials/Testimonials";
 
 const Services = lazy(() => import("../Services/Services"));
 const Brochure = lazy(() => import("../Brochure/Brochure"));
@@ -90,11 +90,11 @@ function Homee() {
         </div>
       </Suspense>
 
-      <Suspense fallback={<h3>Loading...</h3>}>
+      {/* <Suspense fallback={<h3>Loading...</h3>}>
         <div className="modules" id="testimonials">
           <Testimonials resStatus={resStatus} />
         </div>
-      </Suspense>
+      </Suspense> */}
 
       <Suspense fallback={<h3>Loading...</h3>}>
         <div className="modules" id="team">
